@@ -59,6 +59,7 @@ const App = () => {
     <div className="App">
       <div className="header">
         <h1>🍺 Brewery Dashboard</h1>
+        <h4>Sharnica Jeudy Z23582376</h4>
         <p>Discover breweries across the United States</p>
       </div>
 
