@@ -1,6 +1,6 @@
 # Web Development Project 5 - *Data Dashboard Part 1*
 
-Submitted by: **Sharnica Jeudy Z23582376**
+Submitted by: **Sharnica Jeudy**
 
 This web app: **A comprehensive brewery data dashboard built with React that displays information about 100+ breweries across the United States using the Open Brewery DB API. The dashboard features four real-time summary statistics calculated from the filtered dataset including total breweries, number of micro breweries, states covered, and brewpubs count—all dynamically updating based on active filters. Users can search for breweries by name, city, or state through a search bar that filters results in real-time as they type, and additionally filter by brewery type (micro, brewpub, regional, large, planning, contract, proprietor) using a dropdown menu. Both filters work simultaneously to narrow results, with the brewery count and statistics automatically recalculating based on the filtered data. The main dashboard displays brewery cards in a responsive grid layout, with each card showing the brewery's name, type, location, street address, phone number, and a clickable website link that opens in a new tab. The application demonstrates sophisticated data manipulation by using the Set data structure to calculate unique state counts, combining multiple filter criteria, and maintaining separate state for original and filtered data to enable efficient search and filter operations.**
 
@@ -45,9 +45,6 @@ GIF created with ... ScreenToGif
 [ScreenToGif](https://www.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
-## Notes
-
-What I learned is fetching API data with useEffect and async/await, managing multiple interactive state variables (data, filters, search), implementing simultaneous search and filter functionality, calculating dynamic statistics from filtered data using .filter() and Set for unique counts, using .map() to render data arrays, creating controlled inputs, combining multiple filter conditions efficiently, and building responsive grid layouts with CSS Grid.
 
 ## License
 
